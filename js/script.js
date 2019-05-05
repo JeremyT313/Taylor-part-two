@@ -21,5 +21,5 @@ if(tempFahr <= 54) {
 }
 
 
-const result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event, you should wear ${clothing} and ${jacket}`
+const result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event, you should wear ${clothing} and ${jacket}.`
 console.log(result)
