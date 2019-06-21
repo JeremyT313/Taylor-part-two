@@ -1,25 +1,23 @@
-let temp = "What is the temperature today?";
-let event = "What type of event are you going to?";
-const result1 = {
-    casual: "something comfy",
-    semiformal: "a polo",
-    formal: "a suit",
-}
+var tempFahr = prompt("What is the temperature today?");
+var eventType = prompt("What type of event are you going to?");
+ 
+if (eventType === "casual") {
+    clothing = "something comfy";
+} if (eventType === "semi-formal") {
+    clothing = "a polo";
+} if (eventType === "formal") {
+    clothing = "a suit"
+}// if (eventType != "casual" || "semi-formal" || "formal") {
+//  alert("Your answer must be casual, semi-formal, or formal!")
+//}
 
-let tempFahr = prompt(temp);
-let eventType = prompt(event);
-
-let clothing = result1[eventType];
-
-
-if(tempFahr <= 54) {
+if (tempFahr <= 54) {
     jacket = "a coat";
-} else if(tempFahr >=55 && tempFahr <= 70) {
+} if (tempFahr >=55 && tempFahr <= 70) {
     jacket = "a jacket";
-} else if(tempFahr > 70) {
+} if (tempFahr > 70) {
     jacket = "no jacket";
 }
 
-
-const result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event, you should wear ${clothing} and ${jacket}.`
+var result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event, you should wear ${clothing} and ${jacket}.`
 console.log(result)
