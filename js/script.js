@@ -3,13 +3,13 @@ var eventType = prompt("What type of event are you going to?");
  
 if (eventType === "casual") {
     clothing = "something comfy";
-} if (eventType === "semi-formal") {
+} else if (eventType === "semi-formal") {
     clothing = "a polo";
-} if (eventType === "formal") {
+} else if (eventType === "formal") {
     clothing = "a suit"
-}// if (eventType != "casual" || "semi-formal" || "formal") {
-//  alert("Your answer must be casual, semi-formal, or formal!")
-//}
+} else  {
+  alert("Your answer must be casual, semi-formal, or formal!")
+}
 
 if (tempFahr <= 54) {
     jacket = "a coat";
