@@ -8,7 +8,7 @@ if (eventType === "casual") {
 } else if (eventType === "formal") {
     clothing = "a suit"
 } else  {
-  alert("Your answer must be casual, semi-formal, or formal!")
+    alert("Your answer must be casual, semi-formal, or formal!")
 }
 
 if (tempFahr <= 54) {
