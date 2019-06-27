@@ -6,9 +6,9 @@ if (eventType === "casual") {
 } else if (eventType === "semi-formal") {
     clothing = "a polo";
 } else if (eventType === "formal") {
-    clothing = "a suit"
+    clothing = "a suit";
 } else  {
-    alert("Your answer must be casual, semi-formal, or formal!")
+    alert("Your answer must be casual, semi-formal, or formal!");
 }
 
 if (tempFahr <= 54) {
@@ -19,5 +19,5 @@ if (tempFahr <= 54) {
     jacket = "no jacket";
 }
 
-var result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event, you should wear ${clothing} and ${jacket}.`
-console.log(result)
+var result = `Since it is ${tempFahr} degrees and you are going to a ${eventType} event, you should wear ${clothing} and ${jacket}.`;
+console.log(result);
